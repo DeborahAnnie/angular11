@@ -1,8 +1,3 @@
-.color{
-    background-color:#EEBD89;
-    background-image: linear-gradient(360deg,#EEBD89,#D13ABD);
-    height: 100px;
-}
 li{
     list-style-type: none;
 }
@@ -14,23 +9,24 @@ a {
     float: center;
 }
 button {
-    background-color:transparent;
+    background-color:lavenderblush;
     color: black;
     font-weight:500;
-    border-radius: 10px;
+    border-radius: 100px;
     padding: 5px;
     margin-right: 20px;
     position: relative;
     top:20px;
+    border:none;
   }
 button:hover{
-    background-color:mistyrose;
+    background-color: transparent;
     color: white;
     font-weight: bolder;
     transition: 0.3s;
-    padding: 5px;
-    padding-left: 25px;
-    padding-right: 25px;
-    border:none;
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 2px solid black;
   }
   

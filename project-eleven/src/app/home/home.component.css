@@ -1,0 +1,18 @@
+div {
+    position: relative;
+    animation: mymove 5s infinite;
+}
+h2{
+    text-align: center;
+}
+#h1 {
+    animation-timing-function: linear;
+    color: antiquewhite;
+}
+#h2{
+    animation-timing-function: ease-in-out;
+}
+@keyframes mymove {
+    from {left: 0px;}
+    to {left:400px;}
+}

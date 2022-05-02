@@ -18,12 +18,18 @@ import { HomeComponent } from './home/home.component';
 import { TabComponent } from './tab/tab.component';
 import { NewComponent } from './news/new.component';
 import { MenuComponent } from './menu/menu.component';
+import { MyProjectComponent } from './my-project/my-project.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
+  { path: 'myproject', component: MyProjectComponent },
   { path: 'news', component: NewComponent },
   { path: 'books', component: BookCatlogComponent },
   { path: 'addbook', component: BookformComponent },
+  { path: 'boxa', component: BoxaComponent },
+  { path: 'counterapp', component: CounterAppComponent },
+  { path: 'customerform', component: CustomerFormComponent },
+  { path: 'employeeform', component: EmployeeFormComponent },
 ];
 
 @NgModule({
@@ -43,6 +49,7 @@ const routes: Routes = [
     TabComponent,
     NewComponent,
     MenuComponent,
+    MyProjectComponent,
   ],
   imports: [
     BrowserModule,
